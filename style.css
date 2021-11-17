@@ -1,19 +1,17 @@
 body{
     background-image: linear-gradient(270deg,blue,black);
     display:block;
+    font-family:cursive;
 }
 
 .navbar{
     position:fixed;
     display:grid;
-    background-color:rgb(124, 124, 12);
+    background-color: rgb(55, 75, 112,0.7);
     text-align:center;
-    margin-top:15px;
+    margin-top:0px;
     padding: 40px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius:40px;
+    border-radius:40px;
 }
 /* .navigation{
     text-decoration:none;
@@ -28,7 +26,7 @@ div.navbar a{
     cursor:pointer;
     text-decoration:none;   
     /* text-align:center; */
-    color:black; 
+    color:rgb(255, 255, 255); 
     font-size:30px;
     position:relative;
 }
@@ -38,10 +36,10 @@ div.BorderEffect a:before, div.BorderEffect a:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: black;
+    background: rgb(255, 255, 255);
     content:"";
     opacity: 0;
-    transition: all 0.3s;
+    transition: all 0.7s;
 }
 div.BorderEffect a:before
 {
@@ -62,14 +60,15 @@ div.BorderEffect a:hover:before, div.BorderEffect a:hover:after
 }
 .about, .skills, .hobbies{
     text-align:center;
-    background-color:rgb(11, 95, 95);
+    background-color:rgb(11, 95, 95,0.5);
     margin-top:50px;
     margin-bottom:50px;
     padding:30px;
-    margin-left:300px;
-    margin-right:50px;
+    margin-left:330px;
+    margin-right:40px;
     border-radius:50px;
     color:white;
+    /* background: rgba(150,0,0,0.3) */
 }
 .about-me{
     text-align:left;
@@ -78,13 +77,13 @@ div.BorderEffect a:hover:before, div.BorderEffect a:hover:after
 
 #contact{
     text-align:center;   
-    background-color:rgb(11, 95, 95);
+    background-color:rgb(11, 95, 95, 0.5);
     padding:50px;
     padding-top:0px;
     padding-bottom:0px;
-    margin:50px;
+    margin:40px;
     
-    margin-left:300px;
+    margin-left:330px;
     margin-bottom:0px;
     border-radius:50px;
 
@@ -93,6 +92,7 @@ div.BorderEffect a:hover:before, div.BorderEffect a:hover:after
     font-size:30px;
     font-family:cursive;
     color:white;
+    text-decoration:underline;
 }
 
 .input-icons a img{
@@ -109,11 +109,8 @@ div.BorderEffect a:hover:before, div.BorderEffect a:hover:after
 .input-icons {
     width: 100%;
     margin: 0px 10px;
-    padding: 10px 10px
+    padding: 10px 10px;
+    padding-top:30px;
 }
-  
-.icon {
-    padding: 10px;
-    color:red;
-}
+
   
