@@ -12,6 +12,8 @@ body{
     margin-top:0px;
     padding: 40px;
     border-radius:40px;
+    box-shadow:  31px 31px 62px #141341,
+             -31px -31px 62px #4e4bff;
 }
 /* .navigation{
     text-decoration:none;
@@ -67,7 +69,11 @@ div.BorderEffect a:hover:before, div.BorderEffect a:hover:after
     margin-left:330px;
     margin-right:40px;
     border-radius:50px;
+    box-shadow:  31px 31px 62px #141341,
+             -31px -31px 62px #4e4bff;
     color:white;
+
+
     /* background: rgba(150,0,0,0.3) */
 }
 .about-me{
@@ -86,6 +92,8 @@ div.BorderEffect a:hover:before, div.BorderEffect a:hover:after
     margin-left:330px;
     margin-bottom:0px;
     border-radius:50px;
+    box-shadow:  31px 31px 62px #141341,
+             -31px -31px 62px #4e4bff;
 
 }
 .contact-info{
